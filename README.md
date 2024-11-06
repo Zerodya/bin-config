@@ -13,3 +13,4 @@ What I did to install `winget` in LTSC which is required by ChrisTitusTech's Win
 ### Low priority TODOs
 - Map CAPS LOCK to BACKSPACE (with AutoHotKey)
 - Mouse middle-click paste (with AutoHotKey)
+- Bibata cursor 
