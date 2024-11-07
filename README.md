@@ -20,6 +20,7 @@ I use this config on Windows 10 LTSC taken from https://massgrave.dev/genuine-in
 - ChrisTitusTech Winutil config
 - GlazeWM config 
 - Zebar config
+- WSL and fish shell
 ### Low priority TODOs
 - Map CAPS LOCK to BACKSPACE (with AutoHotKey)
 - Mouse middle-click paste (with AutoHotKey)
