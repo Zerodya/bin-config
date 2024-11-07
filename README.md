@@ -8,13 +8,15 @@ I use this config on Windows 10 LTSC taken from https://massgrave.dev/genuine-in
 
 ### Install software:
 - ```
-  choco install -y glazewm zebar floorp discord sublimetext4 steam powertoys microsoft-windows-terminal equalizerapo 7zip autohotkey qbittorrent
+  choco install -y glazewm zebar altsnap floorp discord sublimetext4 steam powertoys microsoft-windows-terminal equalizerapo 7zip autohotkey qbittorrent
   ```
 - ```
   winget install -e --id Guru3D.Afterburner
   ```
 - [AMD software](https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6700-xt.html) for my 6700 XT
-
+---
+### Known issues
+- Can't drag windows with mouse - Waiting for PR [AltSnap#564](https://github.com/RamonUnch/AltSnap/pull/564)
 ---
 ### TODO
 - ChrisTitusTech Winutil config
