@@ -23,8 +23,8 @@ winget install Valve.Steam AutoHotkey.AutoHotkey Guru3D.Afterburner th-ch.YouTub
 
 ### Manual configurations
 - Go to `%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup` and add
+  - glazewm.exe shortcut (from `C:\Program Files\glzr.io\GlazeWM`)
   - TXMouse.exe
-  - EarTrumpet
   - the scripts from the AutoHotKey folder
 - Disable Aero Snap functionality in both Windows settings and AltSnap
 - Set AltSnap modifier key to Left Win
