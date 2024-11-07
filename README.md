@@ -24,15 +24,16 @@ winget install -e --id Guru3D.Afterburner
 - Install [Bibata mouse cursor](https://store.kde.org/p/1197198) using `install.inf` inside the "Bibata-Modern-Ice-Regular-Windows" folder
 
 ### Manual configurations
+- Go to `%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup` and add the scripts from the AutoHotKey folder
 - Disable Aero Snap functionality in both Windows settings and AltSnap
 - Set AltSnap modifier key to Left Win
 ---
 ### Functionality
-- Select to copy, middle-click to paste - with TXMouse
-- Capslock mapped to backspace - with AutoHotKey script
-- Bibata mouse cursor
-- App Launcher - with flow-launcher
-- Better file manager - with Files
+- **Select to copy, middle-click to paste** - with TXMouse
+- **Capslock mapped to backspace** - with AutoHotKey script
+- **Custom Mouse cursor** - with Bibata
+- **App Launcher** - with Flow Launcher
+- **Better file manager** - with Files
 ---
 ### Known issues
 - Dragging windows with mouse while tiling doesn't work - Waiting for PR [AltSnap#564](https://github.com/RamonUnch/AltSnap/pull/564)
