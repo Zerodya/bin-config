@@ -1,0 +1,1 @@
+- `glazewm.ahk` rebinds hotkeys from GlazeWM `config.json` using the Win modifier key instead of Alt. Also has some hotkeys to launch software like the file manager. It should be executed together with GlazeWM.
