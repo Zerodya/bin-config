@@ -11,7 +11,7 @@ I use this config on Windows 10 LTSC taken from https://massgrave.dev/genuine-in
 ### Installation
 - With [choco](https://community.chocolatey.org/packages):
 ```
-choco install -y glazewm zebar altsnap floorp discord sublimetext4 steam powertoys microsoft-windows-terminal equalizerapo 7zip autohotkey qbittorrent
+choco install -y glazewm zebar altsnap sudo flow-launcher files floorp discord sublimetext4 steam powertoys microsoft-windows-terminal equalizerapo 7zip autohotkey qbittorrent
 ```
 - With [winget](https://winget.run/) (for installations that don't work correctly with choco)
 ```
@@ -27,6 +27,8 @@ winget install -e --id Guru3D.Afterburner
 - Select to copy, middle-click to paste - with TXMouse
 - Capslock mapped to backspace - with AutoHotKey script
 - Bibata mouse cursor
+- App Launcher - with flow-launcher
+- Better file manager - with Files
 ---
 ### Known issues
 - Can't drag windows with mouse - Waiting for PR [AltSnap#564](https://github.com/RamonUnch/AltSnap/pull/564)
