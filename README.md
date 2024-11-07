@@ -18,7 +18,11 @@ winget install -e --id Valve.Steam
 winget install -e --id AutoHotkey.AutoHotkey Valve.Steam
 winget install -e --id Guru3D.Afterburner
 ```
+- [TXMouse](https://fy.chalmers.se/~appro/nt/TXMouse/TXMouse.exe) for "select to copy, middle-click to paste" functionality (which absolutely sucks ass in Windows)
 - [AMD software](https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6700-xt.html) for my 6700 XT
+---
+### Functionality
+Capslock mapped to backspace, with AutoHotKey script
 ---
 ### Known issues
 - Can't drag windows with mouse - Waiting for PR [AltSnap#564](https://github.com/RamonUnch/AltSnap/pull/564)
@@ -29,6 +33,4 @@ winget install -e --id Guru3D.Afterburner
 - Zebar config
 - WSL and fish shell
 ### Low priority TODOs
-- Map CAPS LOCK to BACKSPACE (with AutoHotKey)
-- Mouse middle-click paste (with AutoHotKey)
 - Bibata cursor 
