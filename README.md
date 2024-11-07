@@ -11,20 +11,18 @@ I use this config on Windows 10 LTSC taken from https://massgrave.dev/genuine-in
 ### Installation
 - With [choco](https://community.chocolatey.org/packages):
 ```
-choco install -y glazewm zebar altsnap sudo flow-launcher files floorp discord sublimetext4 steam powertoys microsoft-windows-terminal equalizerapo 7zip autohotkey qbittorrent
+choco install -y glazewm altsnap sudo files floorp discord sublimetext4 powertoys microsoft-windows-terminal equalizerapo 7zip qbittorrent freetube
 ```
-- With [winget](https://winget.run/) (for installations that don't work correctly with choco)
+- With [winget](https://winget.run/)
 ```
-winget install -e --id Valve.Steam
-winget install -e --id AutoHotkey.AutoHotkey Valve.Steam
-winget install -e --id Guru3D.Afterburner
+winget install Valve.Steam AutoHotkey.AutoHotkey Guru3D.Afterburner th-ch.YouTubeMusic
 ```
 - [TXMouse](https://fy.chalmers.se/~appro/nt/TXMouse/TXMouse.exe) for "select to copy, middle-click to paste" functionality (which absolutely sucks ass in Windows)
 - [AMD software](https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6700-xt.html) for my 6700 XT
 - Install [Bibata mouse cursor](https://store.kde.org/p/1197198) using `install.inf` inside the "Bibata-Modern-Ice-Regular-Windows" folder
 
 ### Manual configurations
-- Go to `%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup` and add the scripts from the AutoHotKey folder
+- Go to `%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup` and add TXMouse and the scripts from the AutoHotKey folder
 - Disable Aero Snap functionality in both Windows settings and AltSnap
 - Set AltSnap modifier key to Left Win
 ---
@@ -32,13 +30,11 @@ winget install -e --id Guru3D.Afterburner
 - **Select to copy, middle-click to paste** - with TXMouse
 - **Capslock mapped to backspace** - with AutoHotKey script
 - **Custom Mouse cursor** - with Bibata
-- **App Launcher** - with Flow Launcher
 - **Better file manager** - with Files
 ---
 ### Known issues
 - Dragging windows with mouse while tiling doesn't work - Waiting for PR [AltSnap#564](https://github.com/RamonUnch/AltSnap/pull/564)
 ---
 ### TODO
-- ChrisTitusTech Winutil config
-- Zebar config
 - WSL and fish shell
+- Some telemetry removal script?
