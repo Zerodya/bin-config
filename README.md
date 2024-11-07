@@ -8,7 +8,7 @@ I use this config on Windows 10 LTSC taken from https://massgrave.dev/genuine-in
 
 ### Install software:
 - ```
-  choco install -y floorp discord sublimetext4 steam powertoys microsoft-windows-terminal equalizerapo 7zip autohotkey qbittorrent
+  choco install -y glazewm zebar floorp discord sublimetext4 steam powertoys microsoft-windows-terminal equalizerapo 7zip autohotkey qbittorrent
   ```
 - ```
   winget install -e --id Guru3D.Afterburner
