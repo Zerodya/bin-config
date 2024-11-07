@@ -22,6 +22,10 @@ winget install -e --id Guru3D.Afterburner
 - [TXMouse](https://fy.chalmers.se/~appro/nt/TXMouse/TXMouse.exe) for "select to copy, middle-click to paste" functionality (which absolutely sucks ass in Windows)
 - [AMD software](https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6700-xt.html) for my 6700 XT
 - Install [Bibata mouse cursor](https://store.kde.org/p/1197198) using `install.inf` inside the "Bibata-Modern-Ice-Regular-Windows" folder
+
+### Manual configurations
+- Disable Aero Snap functionality in both Windows settings and AltSnap
+- Set AltSnap modifier key to Left Win
 ---
 ### Functionality
 - Select to copy, middle-click to paste - with TXMouse
@@ -31,10 +35,9 @@ winget install -e --id Guru3D.Afterburner
 - Better file manager - with Files
 ---
 ### Known issues
-- Can't drag windows with mouse - Waiting for PR [AltSnap#564](https://github.com/RamonUnch/AltSnap/pull/564)
+- Dragging windows with mouse while tiling doesn't work - Waiting for PR [AltSnap#564](https://github.com/RamonUnch/AltSnap/pull/564)
 ---
 ### TODO
 - ChrisTitusTech Winutil config
-- GlazeWM config 
 - Zebar config
 - WSL and fish shell
