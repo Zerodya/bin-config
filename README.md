@@ -21,10 +21,12 @@ winget install -e --id Guru3D.Afterburner
 ```
 - [TXMouse](https://fy.chalmers.se/~appro/nt/TXMouse/TXMouse.exe) for "select to copy, middle-click to paste" functionality (which absolutely sucks ass in Windows)
 - [AMD software](https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6700-xt.html) for my 6700 XT
+- Install [Bibata mouse cursor](https://store.kde.org/p/1197198) using `install.inf` inside the "Bibata-Modern-Ice-Regular-Windows" folder
 ---
 ### Functionality
 - Select to copy, middle-click to paste - with TXMouse
 - Capslock mapped to backspace - with AutoHotKey script
+- Bibata mouse cursor
 ---
 ### Known issues
 - Can't drag windows with mouse - Waiting for PR [AltSnap#564](https://github.com/RamonUnch/AltSnap/pull/564)
@@ -34,5 +36,3 @@ winget install -e --id Guru3D.Afterburner
 - GlazeWM config 
 - Zebar config
 - WSL and fish shell
-### Low priority TODOs
-- Bibata cursor 
