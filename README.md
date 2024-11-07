@@ -11,7 +11,7 @@ I use this config on Windows 10 LTSC taken from https://massgrave.dev/genuine-in
 ### Installation
 - With [choco](https://community.chocolatey.org/packages):
 ```
-choco install -y glazewm altsnap sudo files floorp discord sublimetext4 powertoys microsoft-windows-terminal equalizerapo 7zip qbittorrent freetube
+choco install -y glazewm altsnap sudo files floorp discord sublimetext4 powertoys microsoft-windows-terminal eartrumpet equalizerapo 7zip qbittorrent freetube 
 ```
 - With [winget](https://winget.run/)
 ```
@@ -22,7 +22,10 @@ winget install Valve.Steam AutoHotkey.AutoHotkey Guru3D.Afterburner th-ch.YouTub
 - Install [Bibata mouse cursor](https://store.kde.org/p/1197198) using `install.inf` inside the "Bibata-Modern-Ice-Regular-Windows" folder
 
 ### Manual configurations
-- Go to `%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup` and add TXMouse and the scripts from the AutoHotKey folder
+- Go to `%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup` and add
+  - TXMouse.exe
+  - EarTrumpet
+  - the scripts from the AutoHotKey folder
 - Disable Aero Snap functionality in both Windows settings and AltSnap
 - Set AltSnap modifier key to Left Win
 ---
@@ -31,6 +34,7 @@ winget install Valve.Steam AutoHotkey.AutoHotkey Guru3D.Afterburner th-ch.YouTub
 - **Capslock mapped to backspace** - with AutoHotKey script
 - **Custom Mouse cursor** - with Bibata
 - **Better file manager** - with Files
+- **Better audio mixer** - with EarTrumpet
 ---
 ### Known issues
 - Dragging windows with mouse while tiling doesn't work - Waiting for PR [AltSnap#564](https://github.com/RamonUnch/AltSnap/pull/564)
