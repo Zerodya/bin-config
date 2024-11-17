@@ -36,9 +36,6 @@ winget install Valve.Steam AutoHotkey.AutoHotkey Guru3D.Afterburner th-ch.YouTub
 - **Better file manager** - with Files
 - **Better audio mixer** - with EarTrumpet
 ---
-### Known issues
-- Dragging windows with mouse while tiling doesn't work - Waiting for PR [AltSnap#564](https://github.com/RamonUnch/AltSnap/pull/564)
----
 ### TODO
 - WSL and fish shell
 - Some telemetry removal script?
