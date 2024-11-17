@@ -128,87 +128,87 @@ binding_modes:
 keybindings:
   # Shift focus in a given direction.
   - commands: ['focus --direction left']
-    bindings: ['alt+left']
+    bindings: ['lwin+left']
   - commands: ['focus --direction right']
-    bindings: ['alt+right']
+    bindings: ['lwin+right']
   - commands: ['focus --direction up']
-    bindings: ['alt+up']
+    bindings: ['lwin+up']
   - commands: ['focus --direction down']
-    bindings: ['alt+down']
+    bindings: ['lwin+down']
 
   # Move focused window in a given direction.
   - commands: ['move --direction left']
-    bindings: ['alt+shift+left']
+    bindings: ['lwin+shift+left']
   - commands: ['move --direction right']
-    bindings: ['alt+shift+right']
+    bindings: ['lwin+shift+right']
   - commands: ['move --direction up']
-    bindings: ['alt+shift+up']
+    bindings: ['lwin+shift+up']
   - commands: ['move --direction down']
-    bindings: ['alt+shift+down']
+    bindings: ['lwin+shift+down']
 
   # Change tiling direction. This determines where new tiling windows will
   # be inserted.
   - commands: ['toggle-tiling-direction']
-    bindings: ['alt+v']
+    bindings: ['lwin+v']
 
   # Change focus from tiling windows -> floating -> fullscreen.
   - commands: ['wm-cycle-focus']
-    bindings: ['alt+space']
+    bindings: ['lwin+space']
 
   # Change the focused window to be floating.
   - commands: ['toggle-floating']
-    bindings: ['alt+x']
+    bindings: ['lwin+x']
 
   # Change the focused window to be fullscreen.
   - commands: ['toggle-fullscreen']
-    bindings: ['alt+f']
+    bindings: ['lwin+shift+f']
 
   # Close focused window.
   - commands: ['close']
-    bindings: ['alt+q']
+    bindings: ['lwin+q']
 
   # Kill GlazeWM process safely.
   - commands: ['wm-exit']
-    bindings: ['alt+shift+e']
+    bindings: ['lwin+shift+e']
 
   # Re-evaluate configuration file.
   - commands: ['wm-reload-config']
-    bindings: ['alt+shift+r']
+    bindings: ['lwin+shift+r']
 
   # Launch CMD terminal. Alternatively, use `shell-exec wt` or
   # `shell-exec %ProgramFiles%/Git/git-bash.exe` to start Windows
   # Terminal and Git Bash respectively.
   - commands: ['shell-exec wt']
-    bindings: ['alt+enter']
+    bindings: ['lwin+enter']
 
   # Focus the workspace that last had focus.
   - commands: ['focus --recent-workspace']
-    bindings: ['alt+a'] # Placeholder a = tab in AutoHotKey
+    bindings: ['lwin+a'] # Placeholder a = tab in AutoHotKey
 
   # Change focus to a workspace defined in `workspaces` config.
   - commands: ['focus --workspace 1']
-    bindings: ['alt+1']
+    bindings: ['lwin+1']
   - commands: ['focus --workspace 2']
-    bindings: ['alt+2']
+    bindings: ['lwin+2']
   - commands: ['focus --workspace 3']
-    bindings: ['alt+3']
+    bindings: ['lwin+3']
   - commands: ['focus --workspace 4']
-    bindings: ['alt+4']
+    bindings: ['lwin+4']
   - commands: ['focus --workspace 5']
-    bindings: ['alt+5']
+    bindings: ['lwin+5']
   - commands: ['focus --workspace 6']
-    bindings: ['alt+6']
+    bindings: ['lwin+6']
 
   # Move focused window to a workspace defined in `workspaces` config.
   - commands: ['move --workspace 1', 'focus --workspace 1']
-    bindings: ['alt+shift+1']
+    bindings: ['lwin+shift+1']
   - commands: ['move --workspace 2', 'focus --workspace 2']
-    bindings: ['alt+shift+2']
+    bindings: ['lwin+shift+2']
   - commands: ['move --workspace 3', 'focus --workspace 3']
-    bindings: ['alt+shift+3']
+    bindings: ['lwin+shift+3']
   - commands: ['move --workspace 4', 'focus --workspace 4']
-    bindings: ['alt+shift+4']
+    bindings: ['lwin+shift+4']
   - commands: ['move --workspace 5', 'focus --workspace 5']
-    bindings: ['alt+shift+5']
+    bindings: ['lwin+shift+5']
   - commands: ['move --workspace 6', 'focus --workspace 6']
-    bindings: ['alt+shift+6']
+    bindings: ['lwin+shift+6']
